@@ -14,8 +14,8 @@
                 </div>
                 <div class="md:w-1/2">
                     <p class="text-gray-700 mb-4 leading-relaxed">
-                        HCPL (Home Construction & Property Limited) has been a pioneer in residential and commercial
-                        construction since 1995. We specialize in creating innovative, sustainable, and luxurious
+                        HCPL (Husain & Co Pvt Ltd) has been a pioneer in residential and commercial
+                        construction since 2002. We specialize in creating innovative, sustainable, and luxurious
                         spaces that reflect modern living standards.
                     </p>
                     <p class="text-gray-700 leading-relaxed">
