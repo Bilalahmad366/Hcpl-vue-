@@ -17,7 +17,7 @@ import { useMeta } from '@/core/composables/use-meta';
 const store = useAppStore();
 
 // meta
-useMeta({ title: 'Cove Nest' });
+useMeta({ title: 'HCPL' });
 store.setMainLayout('auth');
 const mainLayout = computed(() => {
     return store.mainLayout === 'auth' ? authLayout : appLayout;
