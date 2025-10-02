@@ -1,21 +1,9 @@
-<script lang="ts" setup>
-import RegisterInterest from '@/core/components/RegisterInterest.vue';
-</script>
-
 <template>
   <div class="relative w-full min-h-screen">
     <!-- Background Video -->
-    <video
-      class="absolute top-0 left-0 w-full h-full object-cover -z-10"
-      autoplay
-      muted
-      loop
-      playsinline
-    >
-      <source
-        src="https://eighteenpk.com/wp-content/uploads/2024/10/EighteenHousingSociety-June-2024.mp4"
-        type="video/mp4"
-      />
+    <video class="absolute top-0 left-0 w-full h-full object-cover -z-10" autoplay muted loop playsinline>
+      <source src="https://eighteenpk.com/wp-content/uploads/2024/10/EighteenHousingSociety-June-2024.mp4"
+        type="video/mp4" />
     </video>
 
     <!-- Overlay -->
@@ -55,3 +43,8 @@ import RegisterInterest from '@/core/components/RegisterInterest.vue';
 
   </div>
 </template>
+<script lang="ts" setup>
+import { useMeta } from '../composables/use-meta';
+import RegisterInterest from '@/core/components/RegisterInterest.vue';
+useMeta({ title: 'booking' });
+</script>

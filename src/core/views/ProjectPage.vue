@@ -1,16 +1,3 @@
-<script lang="ts" setup>
-import { useRoute } from 'vue-router';
-import { Projects } from '@/core/constants/projects';
-import { computed } from 'vue';
-
-const route = useRoute();
-const projectKey = route.params.project as string;
-
-const project = computed<any>(() => {
-  return Projects[projectKey.toLowerCase()] || null;
-});
-</script>
-
 <template>
   <div v-if="project">
     <!-- Background Image & Overlay -->
@@ -63,31 +50,72 @@ const project = computed<any>(() => {
     Project not found 🚫
   </div>
 </template>
+<script lang="ts" setup>
+import { useRoute } from 'vue-router';
+import { Projects } from '@/core/constants/projects';
+import { computed } from 'vue';
+import { useMeta } from '../composables/use-meta';
+const route = useRoute();
+const projectKey = route.params.project as string;
+useMeta({ title: 'projects' });
+
+const project = computed<any>(() => {
+  return Projects[projectKey.toLowerCase()] || null;
+});
+</script>
 
 <style scoped>
 /* Fade-loop animation for first title */
 @keyframes fadeLoop {
-  0%, 50%, 100% { opacity: 0; }
-  25%, 75% { opacity: 1; }
+
+  0%,
+  50%,
+  100% {
+    opacity: 0;
+  }
+
+  25%,
+  75% {
+    opacity: 1;
+  }
 }
+
 .fade-loop {
   animation: fadeLoop 10s infinite;
 }
 
 /* Fade-loop animation for second title (delayed) */
 @keyframes fadeLoopDelay {
-  0%, 50%, 100% { opacity: 1; }
-  25%, 75% { opacity: 0; }
+
+  0%,
+  50%,
+  100% {
+    opacity: 1;
+  }
+
+  25%,
+  75% {
+    opacity: 0;
+  }
 }
+
 .fade-loop-delay {
   animation: fadeLoopDelay 10s infinite;
 }
 
 /* Fade-in animation for description */
 @keyframes fadeIn {
-  0% { opacity: 0; transform: translateY(20px); }
-  100% { opacity: 1; transform: translateY(0); }
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+
+  100% {
+    opacity: 1;
+    transform: translateY(0);
+  }
 }
+
 .fade-in {
   animation: fadeIn 0.9s ease-out forwards;
 }

@@ -22,21 +22,21 @@ export const projects = [
   },
   {
     title: "Zam Zam Arcade",
-    src: "https://tse4.mm.bing.net/th/id/OIP.DLCxPOc8O-akj56faXfe-QHaDt?rs=1&pid=ImgDetMain&o=7&rm=3",
+    src: "/assets/images/zamzamArcade.png",
     color: "bg-red-500",
     href: "/projects/zamzam-arcade",
     description: `Zam Zam Arcade is a mixed-use development offering retail shops and residential apartments in Soan Garden, providing convenience for living and shopping.`,
   },
   {
     title: "Tariq Arcade",
-    src: "/assets/images/tariqArcade.jpg",
+    src: "/assets/images/tariqArcade.png",
     color: "bg-indigo-500",
     href: "/projects/tariq-arcade",
     description: `Tariq Arcade is a commercial hub featuring modern office and retail spaces designed to meet the needs of growing businesses in Islamabad.`,
   },
   {
     title: "Zainab Arcade 1",
-    src: "https://tse2.mm.bing.net/th/id/OIP.AULKiy3zqP71NVe00yX-UwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+    src: "/assets/images/zainabArcade1.png",
     color: "bg-orange-500",
     href: "/projects/zainab-arcade-1",
     description: `Zainab Arcade 1 provides prime retail and office spaces in Soan Garden, designed for high visibility and modern business operations.`,
@@ -159,7 +159,7 @@ With a contemporary architectural design, the plaza features commercial shops on
       "High-quality construction and finishing standards",
       "Strong investment potential with most units already sold",
     ],
-    src: "https://tse4.mm.bing.net/th/id/OIP.DLCxPOc8O-akj56faXfe-QHaDt?rs=1&pid=ImgDetMain&o=7&rm=3",
+    src: "/assets/images/zamzamArcade.png",
   },
   "arslan-arcade": {
     titles: ["Arslan Arcade", "Business Hub"],
@@ -249,7 +249,7 @@ With a contemporary architectural design, the plaza features commercial shops on
       "Flexible leasing options",
       "Proximity to residential areas and commercial hubs",
     ],
-    src: "https://tse2.mm.bing.net/th/id/OIP.AULKiy3zqP71NVe00yX-UwHaFj?rs=1&pid=ImgDetMain&o=7&rm=3",
+    src: "/assets/images/zainabArcade1.png",
   },
   "tariq-arcade": {
     titles: ["Tariq Arcade", "Business at Its Best"],
@@ -263,7 +263,7 @@ With a contemporary architectural design, the plaza features commercial shops on
       "Flexible leasing and purchasing options",
       "Proximity to major commercial and residential areas",
     ],
-    src: "/assets/images/tariqArcade.jpg",
+    src: "/assets/images/tariqArcade.png",
   },
   hbc: {
     titles: ["HBC", "Innovate & Grow"],
