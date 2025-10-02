@@ -26,10 +26,9 @@
 
 <script setup lang="ts">
 import { useAppStore } from '@/core/store/index';
-const store = useAppStore();
 import AppHeader from '@/core/components/layout/Header.vue';
 import AppFooter from '@/core/components/layout/Footer.vue';
+const store = useAppStore();
 
 </script>
 
-<style scoped></style>
