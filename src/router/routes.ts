@@ -45,5 +45,8 @@ export const appRoutes = [
     },
   },
 
- 
+  {
+    path: "/:pathMatch(.*)*", // Vue 3 syntax for catch-all
+    redirect: "/",
+  },
 ];
