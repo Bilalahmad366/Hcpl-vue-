@@ -45,9 +45,5 @@ export const appRoutes = [
     },
   },
 
-  {
-    path: "/:catchAll(.*)",
-    name: "page-not-found",
-    component: () => import("@/core/views/PageNotFound.vue"),
-  },
+ 
 ];

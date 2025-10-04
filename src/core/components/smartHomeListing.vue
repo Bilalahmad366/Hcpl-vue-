@@ -29,7 +29,8 @@
     </section>
 </template>
 <script setup>
-const smartHomesData = [
+import { ref } from 'vue';
+const smartHomesData = ref([
     {
         id: 1,
         title: 'Studio Apartment',
@@ -45,5 +46,5 @@ const smartHomesData = [
         title: 'Two Bed Apartment',
         image: '/assets/images/smartHomes/Artboard9.jpg',
     },
-];
+]);
 </script>

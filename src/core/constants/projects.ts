@@ -36,14 +36,14 @@ export const projects = [
   },
   {
     title: "Zainab Arcade 1",
-    src: "/assets/images/zainabArcade1.png",
+    src: "/assets/images/zainabArcade1.jpeg",
     color: "bg-orange-500",
     href: "/projects/zainab-arcade-1",
     description: `Zainab Arcade 1 provides prime retail and office spaces in Soan Garden, designed for high visibility and modern business operations.`,
   },
   {
     title: "Mobile Arena",
-    src: "https://tse3.mm.bing.net/th/id/OIP.gXoTCH0OZ-qw_KuModC9TgHaGQ?rs=1&pid=ImgDetMain&o=7&rm=3",
+    src: "/assets/images/mobileArena.jpeg",
     color: "bg-pink-500",
     href: "/projects/mobile-arena",
     description: `Mobile Arena is a tech-oriented commercial space ideal for mobile and technology businesses, providing modern infrastructure and easy accessibility.`,
@@ -234,7 +234,7 @@ With a contemporary architectural design, the plaza features commercial shops on
       "High-quality construction and finishing standards",
       "Proximity to tech hubs and educational institutions",
     ],
-    src: "https://tse3.mm.bing.net/th/id/OIP.gXoTCH0OZ-qw_KuModC9TgHaGQ?rs=1&pid=ImgDetMain&o=7&rm=3",
+    src: "/assets/images/mobileArena.jpeg",
   },
 
   "zainab-arcade-1": {
@@ -249,7 +249,7 @@ With a contemporary architectural design, the plaza features commercial shops on
       "Flexible leasing options",
       "Proximity to residential areas and commercial hubs",
     ],
-    src: "/assets/images/zainabArcade1.png",
+    src: "/assets/images/zainabArcade1.jpeg",
   },
   "tariq-arcade": {
     titles: ["Tariq Arcade", "Business at Its Best"],
