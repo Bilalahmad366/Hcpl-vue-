@@ -78,10 +78,11 @@ export const projects = [
   },
   {
     title: "HBC",
-    src: "https://www.infos-nantes.fr/wp-content/uploads/2025/09/Entrainements-FC-Nantes.jpg",
+    src: "/assets/images/hbc.jpeg",
     color: "bg-rose-500",
     href: "/projects/hbc",
-    description: `HBC is a commercial development providing modern facilities and flexible leasing options, aimed at supporting the growth of innovative businesses.`,
+   description: `Hussain Business Center (HBC) is a premier commercial building on Main PWD Road, offering modern office spaces and flexible leasing options to support business growth and professional operations.`
+
   },
 ];
 
@@ -265,20 +266,21 @@ With a contemporary architectural design, the plaza features commercial shops on
     ],
     src: "/assets/images/tariqArcade.png",
   },
-  hbc: {
-    titles: ["HBC", "Innovate & Grow"],
-    description: `HBC is a commercial development focusing on providing innovative business solutions. The project offers a range of facilities designed to support the growth of businesses.`,
-    video:
-      "https://eighteenpk.com/wp-content/uploads/2021/07/villa_snippet.mp4",
-    amenities: [
-      "Innovative business solutions",
-      "Modern infrastructure and facilities",
-      "Flexible leasing options",
-      "Strategic location with easy access",
-      "Proximity to commercial hubs and residential areas",
-    ],
-    src: "https://www.infos-nantes.fr/wp-content/uploads/2025/09/Entrainements-FC-Nantes.jpg",
-  },
+hbc: {
+  titles: ["Hussain Business Center", "Innovate & Grow"],
+  description: `Hussain Business Center (HBC) is a commercial building located on Main PWD Road, providing modern office spaces and flexible leasing options. Designed to support businesses of all sizes, it offers strategic access to commercial hubs and key amenities in the area.`,
+  video: "https://example.com/videos/hbc_building.mp4",
+  amenities: [
+    "Flexible office spaces for businesses",
+    "Modern infrastructure and facilities",
+    "Prime location on Main PWD Road",
+    "Proximity to shops, bakeries, and other commercial centers",
+    "Multiple floor plans including Lower Ground, Ground, and typical floors",
+  ],
+  src: "/assets/images/hbc.jpeg", 
+},
+
+
   // smart homes
   "luxury-smart-home": {
     titles: ["Luxury Smart Home", "Future of Living"],
@@ -292,6 +294,6 @@ With a contemporary architectural design, the plaza features commercial shops on
       "Modern interior design",
       "Energy-efficient solutions",
     ],
-    src: "https://www.infos-nantes.fr/wp-content/uploads/2025/09/Entrainements-FC-Nantes.jpg",
+    src: "/assets/images/hbc.jpeg",
   },
 };
