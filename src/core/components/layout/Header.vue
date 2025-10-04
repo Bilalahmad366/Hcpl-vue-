@@ -60,7 +60,7 @@ const overlayProjects = computed(() => projects.slice(0, 9));
           </button>
         </a>
 
-        <button @click="isOpen = true" class="ml-4 focus:outline-none">
+        <button @click="isOpen = true" class="ml-4 focus:outline-none lg:hidden">
           <Menu size="28" />
         </button>
         <button @click="isSearch = true" class="focus:outline-none">
@@ -69,8 +69,8 @@ const overlayProjects = computed(() => projects.slice(0, 9));
       </div>
 
       <!-- Mobile Icons -->
-      <div class="lg:hidden flex items-center space-x-4 text-white">
-        <button @click="isOpen = true" class="focus:outline-none">
+      <div class="lg:hidden flex items-center space-x-4 text-black">
+        <button @click="isOpen = true" class=" focus:outline-none">
           <Menu size="28" />
         </button>
         <button @click="isSearch = true" class="focus:outline-none">
@@ -86,7 +86,7 @@ const overlayProjects = computed(() => projects.slice(0, 9));
           v-if="isOpen"
           class="fixed inset-0 bg-black/95 text-white flex flex-col items-end pr-16 py-10 z-50"
         >
-          <button @click="isOpen = false" class="text-white mb-6 lg:pr-9">
+          <button @click="isOpen = false" class="text-white mb-6 lg:pr-9 ">
             <X size="32" />
           </button>
 
@@ -95,7 +95,7 @@ const overlayProjects = computed(() => projects.slice(0, 9));
             <a href="/smart-homes" class="hover:text-gray-400 lg:hidden">Smart Homes</a>
             <a href="/contact" class="hover:text-gray-400 lg:hidden">Contact Us</a>
 
-            <div class="flex flex-col space-y-2">
+            <!-- <div class="flex flex-col space-y-2">
               <a
                 v-for="project in overlayProjects"
                 :key="project.href"
@@ -104,10 +104,10 @@ const overlayProjects = computed(() => projects.slice(0, 9));
               >
                 {{ project.title }} +
               </a>
-            </div>
+            </div> -->
 
             <a href="/booking">
-              <button class="mt-6 px-5 py-2 border border-white text-white rounded hover:bg-white hover:text-black transition">
+              <button class="mt-6 px-5 py-2 border lg:hidden border-white text-white rounded hover:bg-white hover:text-black transition">
                 Book Now
               </button>
             </a>
